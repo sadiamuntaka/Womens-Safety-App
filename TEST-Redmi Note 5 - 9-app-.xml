@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.darkness.sparkwomen.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="1.501" timestamp="2023-01-17T17:21:36" hostname="localhost">
+  <properties>
+    <property name="device" value="Redmi Note 5 - 9" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="useAppContext" classname="com.darkness.sparkwomen.ExampleInstrumentedTest" time="0.679" />
+</testsuite>

@@ -1,10 +1,18 @@
 {
   "version": 3,
   "artifactType": {
-    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.darkness.sparkwomen",
-  "variantName": "debug",
-  "elements": []
+  "applicationId": "com.darkness.sparkwomen.test",
+  "variantName": "debugAndroidTest",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "AndroidManifest.xml"
+    }
+  ],
+  "elementType": "File"
 }
