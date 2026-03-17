@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.darkness.sparkwomen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:5:5-81
+11-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:7:5-66
+13-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:8:5-68
+14-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:8:22-66
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:9:5-76
+15-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:10:5-77
+16-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:10:22-75
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:12:5-70
+18-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:12:22-68
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+27
+28    <queries>
+28-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+29
+30        <!-- Needs to be explicitly declared on Android R+ -->
+31        <package android:name="com.google.android.apps.maps" />
+31-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+31-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+32    </queries>
+33
+34    <application
+34-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:15:5-37:19
+35        android:allowBackup="true"
+35-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:16:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] C:\Users\Asus\.gradle\caches\transforms-3\672f4e7aaf9772bc5bc560714c9fe38d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:17:9-43
+40        android:label="@string/app_name"
+40-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:18:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:19:9-54
+42        android:supportsRtl="true"
+42-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:20:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.SparkWomen" >
+44-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:21:9-48
+45        <activity android:name="com.darkness.sparkwomen.SmsActivity" />
+45-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:22:9-81
+45-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:22:19-69
+46        <activity android:name="com.darkness.sparkwomen.MainActivity" />
+46-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:23:9-73
+46-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:23:19-70
+47        <activity
+47-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:24:9-30:20
+48            android:name="com.darkness.sparkwomen.SplashActivity"
+48-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:24:19-72
+49            android:exported="true" >
+49-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:24:73-96
+50            <intent-filter>
+50-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:25:13-29:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:26:17-69
+51-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:26:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:28:17-77
+53-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:28:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.darkness.sparkwomen.LawDisplayerActivity" />
+56-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:31:9-81
+56-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:31:19-78
+57        <activity android:name="com.darkness.sparkwomen.LawsActivity" />
+57-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:32:9-73
+57-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:32:19-70
+58        <activity android:name="com.darkness.sparkwomen.ContactActivity" />
+58-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:33:9-76
+58-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:33:19-73
+59        <activity android:name="com.darkness.sparkwomen.SelfDefenseActivity" />
+59-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:34:9-57
+59-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:34:19-54
+60
+61        <service android:name="com.darkness.sparkwomen.ServiceMine" />
+61-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:36:9-71
+61-->D:\Spark-Women-main\app\src\main\AndroidManifest.xml:36:18-68
+62
+63        <activity
+63-->[com.karumi:dexter:6.2.3] C:\Users\Asus\.gradle\caches\transforms-3\f606d0c3a1b5eee7f828558f672fa7d8\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+64            android:name="com.karumi.dexter.DexterActivity"
+64-->[com.karumi:dexter:6.2.3] C:\Users\Asus\.gradle\caches\transforms-3\f606d0c3a1b5eee7f828558f672fa7d8\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+65            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+65-->[com.karumi:dexter:6.2.3] C:\Users\Asus\.gradle\caches\transforms-3\f606d0c3a1b5eee7f828558f672fa7d8\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Asus\.gradle\caches\transforms-3\8428e1b4736cf4ae32b4bbd773da0e0e\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Asus\.gradle\caches\transforms-3\c3c90d0fe9afe254246ddce3ec9b6ebd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Asus\.gradle\caches\transforms-3\c3c90d0fe9afe254246ddce3ec9b6ebd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Asus\.gradle\caches\transforms-3\c3c90d0fe9afe254246ddce3ec9b6ebd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Asus\.gradle\caches\transforms-3\c3c90d0fe9afe254246ddce3ec9b6ebd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9b3c555217e4ebebc56913dec2dcd104\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9b3c555217e4ebebc56913dec2dcd104\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9b3c555217e4ebebc56913dec2dcd104\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+81            android:authorities="com.darkness.sparkwomen.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\db766ee6b746441c8cc13730ad82e953\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Asus\.gradle\caches\transforms-3\f8fe622ca46639caa23a5e7f72e58a1e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Asus\.gradle\caches\transforms-3\f8fe622ca46639caa23a5e7f72e58a1e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Asus\.gradle\caches\transforms-3\f8fe622ca46639caa23a5e7f72e58a1e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
